@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CARDIO"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/caone"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ONE OF THE MOST OBVIOUS BENEFIT OF USING A TREDMILL IS THAT IT HELPS TO LOSE WEIGHT. RUNINNG FOR JUST 20 MINUTES AT 6mph WILL BURN 229 CALORIES"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/catwo"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXERCING REGULARLY ON A STEP MACHINE CAN DEVELOP CARDIOVASCULAR FITNESS AND ENHANCE LOWER BODY MUSCLES AND BURN CALORIES"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/cathree"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGUALAR CYCLING INCREASE MUSCLE STRENGTH, FLEXIBILITY AND ALSO IMPROVE JOINT MOBILITY, DECREASE STRESS LEVELS."
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

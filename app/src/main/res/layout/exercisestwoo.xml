@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lazar">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:text="MONDAY"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/biceps"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/biceps"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/yoga"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/biceps"
+            android:layout_below="@+id/biceps"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/yoga" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:text="TUESDAY"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/triceps"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/biceps"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/triceps" />
+
+        <Button
+            android:id="@+id/cardio"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/chest"
+            android:layout_below="@+id/chest"
+            android:layout_gravity="center"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/cardio" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:text="WEDNESDAY"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/chest"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/back"
+            android:layout_below="@+id/back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/chest" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/shoulder"
+            android:layout_below="@+id/shoulder"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:text="THURSDAY"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/shoulder"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/shoulder"
+            android:layout_below="@+id/thursday"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shoulder" />
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:text="FRIDAY"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/legs"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/shoulder"
+            android:layout_below="@+id/friday"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/legs" />
+        <TextView
+            android:id="@+id/saturday"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:text="SATURDAY"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/meditation"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/shoulder"
+            android:layout_below="@+id/saturday"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/meditation" />
+
+    </LinearLayout>
+</ScrollView>
+

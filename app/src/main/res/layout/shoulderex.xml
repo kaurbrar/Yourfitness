@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHOULDER"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/sone"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LIKE THE SEATED SHOULDER PRESS USING A MACHINE, THIS EXERCISE PRIMARILY WORKS THE DELTOIDS, BUT IT IS ALSO BRINGS HTHE SURROUNDING MUSCLES INTO PLAY. WORKING ALL THE SHOULDER MUSCLE SIMULTANEOUSLY HELPS TO PREVENT INJURIES CAUSE BY MUSCLE INBALANCES"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:src="@drawable/stwo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DUMBBELL LATERAL RAISES WILL HELP TO BUILD STRONG SHOULDERS AND IMPROVE THE DEFINITION"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/sthree"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THE ARNOLD PRESS IS A VARIATION OF A STANDARD MILITARY PRESS THAT ALLOWS IT TO ALSO TARGETS TO THE ROTATOR CUFFS. IT TARGETS BOTH YOUOR FRONT AND SIDE DELTOIDS"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
